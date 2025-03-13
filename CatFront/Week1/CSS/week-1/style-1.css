@@ -1,0 +1,71 @@
+/* (1) */
+
+/* Write in the comment what each Selector expresses. */
+.title {
+}
+/* class called 'title' */
+
+#nav {
+}
+/* id called 'nav' */
+
+div {
+}
+/* all div elements */
+
+h2 {
+}
+/* all h2 elements */
+/* ................................. */
+
+/* (5) */
+
+/* Right */
+._user-name {
+}
+
+/* Right */
+.-user-name {
+}
+
+/* Fulse */
+.1user-name {
+}
+
+/* Fulse */
+.@user-name {
+}
+
+/* Fulse */
+.user@name {
+}
+
+/* Right */
+._user10name {
+}
+
+/* Right */
+.u {
+}
+/* ................................. */
+
+/* (6) */
+/* not bad */
+.USERNAME {
+}
+
+/* perfect */
+.UserName {
+}
+
+/* not bad */
+.user-name {
+}
+
+/* bad */
+.userName {
+}
+
+/* bad */
+.usernameprofile {
+}
