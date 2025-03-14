@@ -1,0 +1,22 @@
+div{
+    width: 500px; ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+}
+
+.assign-1-shape-1{
+    background-color: blueviolet;
+    /* other shape of writting colors in background */
+    /* background-color: rgb(red, green, blue); 
+    background-color: #ff69ff;
+    background-color: rgb(#ff69ff, #fefefe, #ff55ff); */
+}
+
+.assign-1-shape-2{
+    background-color: rgba(138, 43, 226, 0.5);
+}
+
+.assign-1-shape-3{
+    background-color: rgba(138, 43, 226, 0.1);
+}
