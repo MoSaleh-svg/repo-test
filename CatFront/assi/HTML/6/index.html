@@ -1,0 +1,54 @@
+    <!-- ------------------------------------- -->
+    <!DOCTYPE html>
+    <html lang="ar">
+    <head>
+      <meta charset="UTF-8">
+      <title>نموذج بسيط</title>
+      <style>
+      </style>
+    </head>
+    <body>
+    
+      <h1>نموذج إدخال البيانات</h1>
+    
+      <form >
+    
+        <label for="username">اسم المستخدم</label>
+        <input type="text" id="username" name="username" required>
+        <small>يرجى كتابة اسم مستخدم بدون رموز خاصة.</small>
+        <hr>
+    
+        <label for="password">كلمة المرور</label>
+        <input type="password" id="password" name="password">
+        <small>اختر كلمة مرور قوية تحتوي على أرقام وحروف.</small>
+        <hr>
+    
+        <label for="mobile">رقم الهاتف</label>
+        <input type="tel" id="mobile" name="mobile" pattern="\+20100\s?\(\d{3}\)\s?\d{3}" placeholder="+20100 (234) 123">
+        <small>اكتب الرقم بالشكل التالي: +20100 (234) 123</small>
+        <hr>
+    
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" name="email" required>
+        <small>يرجى كتابة بريد إلكتروني صحيح مثل: example@email.com</small>
+        <hr>
+    
+        <label for="subject">الموضوع</label>
+        <input type="text" id="subject" name="subject">
+        <small>اكتب موضوع الرسالة باختصار.</small>
+        <hr>
+    
+        <input type="hidden" name="hidden_code" value="12345">
+    
+        <button type="reset">Empty Form</button>
+        <button type="submit">Send Data</button>
+
+        <input type="range" min="0" max="800" value="400">
+
+      </form>
+    
+    </body>
+    </html>
+    
+        <!-- ------------------------------------- -->
+    
